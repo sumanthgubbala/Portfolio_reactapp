@@ -22,7 +22,7 @@ CustomHook(refTab)
       <div className='card'>
         <img src='/avatar.jpg' alt='' />
          <div className='info'>
-          <div>developer</div>
+          <div>Developer</div>
          </div>
       </div>
 
