@@ -1,6 +1,7 @@
 import React,{useRef} from 'react'
 
 import CustomHook from './CustomHook'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
   const refTab =useRef();
@@ -23,6 +24,8 @@ CustomHook(refTab)
         <img src='/avatar.jpg' alt='' />
          <div className='info'>
           <div>Developer</div>
+          <FontAwesomeIcon icon="fa-brands fa-instagram" style={{color: "#441f51",}} />
+          
          </div>
       </div>
 
