@@ -2,6 +2,7 @@ import React,{useState,useRef} from 'react'
 import CustomHook from './CustomHook'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faHtml5, faCss3 ,faJs ,faJava,faPython } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase} from '@fortawesome/free-solid-svg-icons'
 
 const Skills = () => {
   const [listSkills] =useState([
@@ -28,6 +29,10 @@ const Skills = () => {
     {
       name: 'JavaScript',
       icon: faJs
+    },
+    {
+      name: 'Database',
+      icon: faDatabase
     }
    
     
