@@ -7,24 +7,24 @@ const Projects = () => {
   const [projects] = useState([
     {
       name:'Real-time chating in website',
-      description: 'This is a real-time chatting system in website',
-      mission:'Full-Stack Developer (Front-end and Back-end), System analysis and desgin',
-      Technologies:'HTML5, CSS3, React Js, MongoDb',
-      image:'/project1.jpg'
+      description: 'This is a private chatting website where you can chat with your friends and family. You can also share files and images with them. This website is completely free and easy to use.',
+      mission:'Full-Stack Developer (Front-end and Back-end)',
+      Technologies:' React Js, HTML5, CSS3, MongoDb',
+      image:'/project1.png'
 
     },
     {
       name:'Desease Prediction using machine learning',
       description: 'This is a disease prediction system using machine learning.The system aims to predict various diseases based on input symptoms, helping in early diagnosis and treatment planning. By utilizing supervised learning techniques, the model can analyze patient data and provide accurate predictions',
-      mission:'Data Scientist, System analysis and desgin',
+      mission:'Data Scientist',
       Technologies:'Python, Supervised Machine Learning, Scikit-learn, Ensemble Learning',
       image:'/project2.png'
     },
     {
       name:'MCQs Generator using Gemini AI API',
       description: 'This project involves developing a comprehensive MCQs generator system using the Gemini AI API. The system automates the creation of multiple-choice questions (MCQs) based on specified criteria, streamlining the process of generating high-quality educational content. It features both a user-friendly front-end interface and a robust back-end for handling data and interactions with the AI API. The project includes system analysis and design to ensure efficient integration and performance.',
-      mission:'Full-Stack Developer (Front-end and Back-end), System analysis and desgin',
-      Technologies:'HTML5, CSS3, Python (LangChain)', 
+      mission:'Full-Stack Developer (Front-end and Back-end)',
+      Technologies:' Python (LangChain)', 
       image:'/project3.png'
 
     }
