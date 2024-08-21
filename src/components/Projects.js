@@ -40,7 +40,7 @@ const Projects = () => {
           <h1>This is My Projects</h1>
         </div>
         <div className='des' ref={(el) => el && refDivs.current.push(el)}>
-          <p>I have worked on a diverse range of projects that showcase my skills in machine learning, full-stack development, and system design.</p>
+          <p>I have worked on a diverse range of projects that showcase my skills in machine learning and full-stack development.</p>
         </div>
         <div className='list'>
           {
