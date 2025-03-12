@@ -6,6 +6,21 @@ import { faPersonCircleQuestion, faEarthAmericas } from '@fortawesome/free-solid
 const Projects = () => {
   const [projects] = useState([
     {
+      "name": "AI Short Video Generator",
+      "description": "An AI-powered system that generates short videos by combining AI-generated scripts, images, and text-to-speech narration. Utilizes Gemini API and Hugging Face models.",
+      "mission": "AI Developer (NLP and Multimedia Processing)",
+      "Technologies": "Next.js, Python, Gemini API, Hugging Face API",
+      "image": "/project4.png"
+    },
+    ,
+  {
+    "name": "Traffic Prediction and Management System",
+    "description": "A machine learning-based system for predicting traffic congestion and suggesting alternative routes using geospatial data and synthetic datasets.",
+    "mission": "Machine Learning Engineer",
+    "Technologies": "Python, TensorFlow, OpenRouteService API",
+    "image": "/project5.png"
+  },
+    {
       name:'Real-time chating in website',
       description: 'This is a private chatting website where you can chat with your friends and family. You can also share files and images with them. This website is completely free and easy to use.',
       mission:'Full-Stack Developer (Front-end and Back-end)',
@@ -26,8 +41,7 @@ const Projects = () => {
       mission:'Full-Stack Developer (Front-end and Back-end)',
       Technologies:' Python (LangChain)', 
       image:'/project3.png'
-
-    }
+    },
 
   ]);
   const refTab =useRef()

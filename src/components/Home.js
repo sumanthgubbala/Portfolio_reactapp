@@ -25,11 +25,19 @@ CustomHook(refTab)
       <div className='card'>
         <img src='/avatar.jpg' alt='' />
          <div className='info'>
-          <FontAwesomeIcon icon={faInstagram} style={{color: "#441f50"}} />
-          <FontAwesomeIcon icon={faFacebook} style={{color: "#441f51",}} />
-          <FontAwesomeIcon icon={faGithub} style={{color: "#441f51",}} />
-          <FontAwesomeIcon icon={faLinkedin} style={{color: "#441f51",}} />
-          
+         <a href="https://www.instagram.com/i_s.u.m.a.n.t.h" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} style={{ color: "#441f50" }} />
+        </a>
+        <a href="https://www.facebook.com/sumanth.gubbala/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFacebook} style={{ color: "#441f51" }} />
+        </a>
+        <a href="https://github.com/sumanthgubbala" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} style={{ color: "#441f51" }} />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/sumanth-gubbala/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} style={{ color: "#441f51" }} />
+        </a>
          </div>
       </div>
 

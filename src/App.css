@@ -129,7 +129,8 @@ section{
         }
         & img{
           width: 100%;
-          height: min(700px ,50vh);
+          height:auto;
+          max-height: 700px;
           object-fit: cover;
           object-position: top;
           clip-path: polygon(
