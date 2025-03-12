@@ -12,7 +12,6 @@ const Projects = () => {
       "Technologies": "Next.js, Python, Gemini API, Hugging Face API",
       "image": "/project4.png"
     },
-    ,
   {
     "name": "Traffic Prediction and Management System",
     "description": "A machine learning-based system for predicting traffic congestion and suggesting alternative routes using geospatial data and synthetic datasets.",
